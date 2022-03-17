@@ -21,6 +21,8 @@ public:
 
     Client(const string &name);
 
+    ~Client();
+
     /**
      * Orders a product from the shop
      * Consumes a product object to create an order

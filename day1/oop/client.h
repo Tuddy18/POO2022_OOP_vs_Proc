@@ -21,9 +21,10 @@ public:
 
     Client(const string &name);
 
+    virtual ~Client();
+
     /**
-     * Orders a product from the shop
-     * Consumes a product object to create an order
+     * orders a product
      * @param Product
      * @return
      */

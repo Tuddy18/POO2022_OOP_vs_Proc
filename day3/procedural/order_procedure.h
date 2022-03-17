@@ -11,12 +11,12 @@
 using namespace std;
 
 /**
- * Orders a product from the shop and returns a receipt number
- * @param clientName the client name
- * @param productName the product name
- * @param brandName the brand name
- * @param dateTime the datetime of the order
- * @return receipt number
+ *
+ * @param clientName
+ * @param productName
+ * @param brandName
+ * @param dateTime
+ * @return
  */
 int orderProductProcedure(string clientName, string productName, string brandName, string& dateTime);
 

@@ -40,3 +40,7 @@ Order Client::orderProduct(Product product) {
 string Client::toString() {
     return "Client{ name: " + getName() + " }";
 }
+
+Client::~Client() {
+    cout << "Client destroyed!";
+}
